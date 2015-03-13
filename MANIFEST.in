@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include hub *.css
+recursive-include hub *.csv
+recursive-include hub *.html
+recursive-include hub *.ico
+recursive-include hub *.js
+recursive-include hub *.json
+recursive-include hub *.md
+recursive-include hub *.png
+recursive-include hub *.py
+recursive-include hub *.svg
+recursive-include hub *.txt
+recursive-exclude hub *.pyc
